@@ -3,7 +3,7 @@ import cv2
 ASCII_SIZE = 100
 ASCII_CHARS = ['⠀', '⢀', '⠄', '⠤', '⠶', '⡆', '⡖', '⣆', '⣤', '⣶', '⣿']
 
-def resize_image(image, new_width=100):
+def resize_image(image, new_width=ASCII_SIZE):
     height, width = image.shape[:2]
     ratio = new_width / float(width)
     new_height = int(height * ratio)
@@ -41,6 +41,6 @@ def main(image_path, new_width=ASCII_SIZE):
     with open('ascii_art.txt', 'w') as f:
         f.write(ascii_str)
 
-if name == "main":
+if __name__ == "__main__":
     image_path = 'image.jpg'
     main(image_path)
