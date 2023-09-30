@@ -12,6 +12,9 @@
 ***🔨 Installation:***
 ----------------------------------------------------------------------------------------------
 
+- Just download [this](https://github.com/a13xe/ImgToASCII/releases/download/v1.0.0/ImgToASCII.exe) release exe file.
+- Or run in the python compiler with required lib: 
+
 ```
 pip install opencv-python
 ```
