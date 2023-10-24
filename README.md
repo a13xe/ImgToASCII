@@ -5,8 +5,8 @@
 <img src="https://img.shields.io/github/downloads/a13xe/ImgToASCII/total"/>
 </div>
 <div align="center">
-<img src="https://tokei.rs/b1/github/a13xe/ImgToASCII?category=files"/>
-<img src="https://tokei.rs/b1/github/a13xe/ImgToASCII?category=lines"/> 
+<img src="https://tokei.rs/b1/github/a13xe/ImgToASCII?category=files" alt=""/>
+<img src="https://tokei.rs/b1/github/a13xe/ImgToASCII?category=lines" alt=""/> 
 </div>
 
 ***🔨 Installation:***
